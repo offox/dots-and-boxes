@@ -1,0 +1,41 @@
+RELEASE NOTES
+
+PRODUCT's NAME: Dots and Boxes Game
+AUTHOR: Oswaldo Fratini Filho
+DATE: 15/06/2014
+VERSION: 1.1
+
+This is the first version of the product Dots Game and implements the
+requirements of the Hands on Test.
+
+NEW FEATURES
+
+1. Grid of dots with three different dimensions.
+2. Restart game.
+3. Animation to indicate who player won the game.
+4. Indication of new line possible when mouse pass mouse above her.
+
+BUGS FIXED
+
+1. When happened this situation and player clicked in the middle of the
+rectangle only one square will be draw and only one point is computed.
+
+	o - o - o
+	|       | 	Where: "o" = dots   /    "-" and "|" = lines
+	o - o - o
+
+CONTENT
+
+dots-game/
+	|-grid.cpp
+	|-grid.h
+	|-dots-and-boxes-game.pro
+	|-.git/
+	|-line.cpp
+	|-line.h
+	|-main.cpp
+	|-mainwindow.cpp
+	|-mainwindow.h
+	|-mainwindow.ui
+	|-README
+	|-RELEASE-NOTES
